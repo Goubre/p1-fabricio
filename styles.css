@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eae6f7; /* Cor de fundo suave */
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #6a0dad; /* Cor roxa */
+}
+
+select, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #6a0dad; /* Cor roxa */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5b0c9d; /* Cor roxa mais escura ao passar o mouse */
+}
+
+#dog-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.dog-item {
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+    border: 2px solid #6a0dad; /* Borda roxa */
+}
+
+.dog-item img {
+    width: 200px; /* Tamanho da imagem */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.dog-item button {
+    display: block; /* O botão ficará abaixo da imagem */
+    margin: 0 auto; /* Centraliza o botão */
+    width: 80%; /* Largura do botão */
+}
+
+#favorites {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#favorites h2 {
+    text-align: left; /* Move o título "Favoritos" para o canto esquerdo */
+    width: 100%;
+    margin-bottom: 20px;
+    color: #6a0dad;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.favorite-item {
+    display: inline-block; /* Itens lado a lado */
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #6a0dad; /* Borda roxa */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.favorite-item img {
+    width: 120px; /* Tamanho reduzido da imagem dos favoritos */
+    height: auto;
+    border-radius: 10px;
+}
+
+.empty {
+    color: gray;
+    text-align: left; /* Centraliza a mensagem de favoritos vazios */
+}
